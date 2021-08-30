@@ -1,17 +1,10 @@
 /** GPU solver for 2D lid-driven cavity problem, using finite difference method
  * \file main_gpu.cu
  *
- * \author Kyle E. Niemeyer
- * \date 09/27/2012
- *
+ * \author Suman Shekhar
  * Solve the incompressible, isothermal 2D Navier–Stokes equations for a square
  * lid-driven cavity on a GPU (via CUDA), using the finite difference method.
- * To change the grid resolution, modify "NUM". In addition, the problem is controlled
- * by the Reynolds number ("Re_num").
  * 
- * Based on the methodology given in Chapter 3 of "Numerical Simulation in Fluid
- * Dynamics", by M. Griebel, T. Dornseifer, and T. Neunhoeffer. SIAM, Philadelphia,
- * PA, 1998.
  * 
  * Boundary conditions:
  * u = 0 and v = 0 at x = 0, x = L, y = 0
