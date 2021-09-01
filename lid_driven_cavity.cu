@@ -22,7 +22,7 @@
 #include <cuda.h>
 #include <helper_cuda.h>
 
-/** Problem size along one side; total number of cells is this squared */
+/** Domain size along one side; total number of cells is this squared */
 #define NUM 512
 
 // block size
